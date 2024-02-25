@@ -1,0 +1,458 @@
+{
+	"name": {
+		"text": "infinity"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "addonpack:textures/icons/icon.png"
+	},
+
+	"max_level": 50,
+
+	"capsule_color": 16711740,
+
+	"abilities": [{
+
+			"ability": "lucraftcore:health",
+			"amount": 99999999999999999999999999999999999999999999999999999999,
+			"operation": 0,
+			"uuid": "b0b51f43-f098-45ba-ac6a-fdf3d07f5055"
+		},
+		{
+			"ability": "heroesexpansion:lightning_attack",
+			"key": 1
+		},
+		{
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": -10,
+			"damage": 50,
+			"color": [338, 92, 100]
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 9999999999,
+			"operation": 0,
+			"uuid": "b0b51f43-f098-45ba-ac6a-fdf3d07f5055"
+		},
+		{
+			"ability": "speedsterheroes:change_speed",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"accelerate": true
+
+		},
+		{
+			"ability": "heroesexpansion:portal",
+			"cooldown": 0,
+			"show_in_bar": true
+		},
+		{
+			"ability": "speedsterheroes:super_speed",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"base_speed_levels": 9999,
+			"gives_xp": true
+		},
+		{
+			"ability": "speedsterheroes:water_running",
+			"show_in_bar": true,
+			"title": {
+				"translate": "speedsterheroes.abilities.water_running.name"
+			},
+			"speed": 90
+		},
+		{
+			"ability": "speedsterheroes:wall_running",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "speedsterheroes.abilities.wall_running.name"
+			},
+			"bar_color": "light_gray",
+			"speed": 90
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "lucraftcore.abilities.size_change.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"size": 99999999999999999999999999999999,
+			"size_changer": "lucraftcore:default"
+		},
+		{
+			"ability": "lucraftcore:size_change",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "lucraftcore.abilities.size_change.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"size": -99999999999999999999999999999999,
+			"size_changer": "lucraftcore:default"
+		},
+		{
+			"ability": "lucraftcore:teleport",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "lucraftcore.abilities.teleport.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"distance": 999
+
+		},
+		{
+			"ability": "heroesexpansion:force_field",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "heroesexpansion.abilities.force_field.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"color": [158, 83, 80]
+
+		},
+		{
+			"ability": "heroesexpansion:black_hole",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "heroesexpansion.abilities.black_hole.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray"
+		},
+		{
+			"ability": "heroesexpansion:god_mode",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "heroesexpansion.abilities.god_mode.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"damage": 9999999999999999999999999.9
+		},
+		{
+			"ability": "lucraftcore:toggle_power",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "lucraftcore.abilities.toggle_power.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray"
+		},
+		{
+			"ability": "heroesexpansion:freeze_breath",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "heroesexpansion.abilities.freeze_breath.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"distance": 5.0
+		},
+		{
+			"ability": "heroesexpansion:lightning_attack",
+			"cooldown": 0,
+			"show_in_bar": true,
+			"title": {
+				"translate": "heroesexpansion.abilities.lightning_attack.name"
+			},
+			"icon": {
+				"type": "internal"
+			},
+			"bar_color": "light_gray",
+			"damage": 9999999999999999999999999999999999999999999999999999999999.9
+        },
+	    {   "ability": "heroesexpansion:heat_vision",
+            "cooldown": 0,
+            "show_in_bar": true,
+            "title": {"translate":"heroesexpansion.abilities.heat_vision.name"},
+             "icon": { "type": "internal" },
+            "bar_color": "light_gray",
+            "color": [255, 0, 0]
+        },
+		{  "ability": "heroesexpansion:photon_blast",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.photon_blast.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "color": [99, 92, 0]
+        },
+		{  "ability": "heroesexpansion:x_ray",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.x_ray.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+        },
+		{  "ability": "heroesexpansion:energy_absorption",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.energy_absorption.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "max_energy": 999999999999999999999999999999999999999999999999999999999999,
+           "max_damage": 999999999999999999999999999999999999999999999999999999999999
+         },
+		 { "ability": "heroesexpansion:solar_energy",
+           "show_in_bar": false,
+           "title": {"translate":"heroesexpansion.abilities.solar_energy.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "max_solar_energy": 100,
+           "ability_values": [
+         { "ability": "ability_key_1", "amount": 100, "frequency": 8 },
+         { "ability": "ability_key_2", "amount": 900, "frequency": 8 }
+]
+
+         },
+		 { "ability": "heroesexpansion:lightning_strike",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.lightning_strike.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesexpansion:spider_sense",
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.spider_sense.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesexpansion:call_weapon",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.call_weapon.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+         { "ability": "speedsterheroes:time_remnant",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.time_remnant.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesexpansion:kinetic_energy_absorption",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.kinetic_energy_absorption.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "max_energy": 9999,
+           "color": [255, 255, 255]
+         },
+         { "ability": "speedsterheroes:arm_vortex",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.arm_vortex.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "distance": 9999
+		 },
+		 { "ability": "infinity:kill",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"infinity.abilities.kill.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "infinity:changesnap",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"infinity.abilities.changesnap.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "infinity:snap",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"infinity.abilities.snap.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "infinity:saturation",
+           "show_in_bar": false,
+           "title": {"translate":"infinity.abilities.saturation.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "infinity:locate",
+           "show_in_bar": false,
+           "title": {"translate":"infinity.abilities.locate.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "speedsterheroes:blade",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.blade.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "speedsterheroes:dimension_breach",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.dimension_breach.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "speedsterheroes:turn_into_bubbles",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.turn_into_bubbles.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "star-tech:power_rocket_burst",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"star-tech.abilities.power_rocket_burst.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "star-tech:power_impower",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"star-tech.abilities.power_impower.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "ironman:toggle_flight",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"ironman.abilities.toggle_flight.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "ironman:faceplate",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"ironman.abilities.faceplate.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "the-fifth-world:deafness",
+           "show_in_bar": true,
+           "title": {"translate":"the-fifth-world.abilities.deafness.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "the-fifth-world:screech",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"the-fifth-world.abilities.screech.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "damage": 999999999
+         },
+		 { "ability": "the-fifth-world:bonemeal_area",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"the-fifth-world.abilities.bonemeal_area.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "radius": 100
+         },
+		 { "ability": "speedsterheroes:phasing",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.phasing.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "speedsterheroes:lightning_throw",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"speedsterheroes.abilities.lightning_throw.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesexpansion:wall_crawling",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.wall_crawling.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesexpansion:precision",
+           "show_in_bar": false,
+           "title": {"translate":"heroesexpansion.abilities.precision.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesexpansion:grab_entity",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesexpansion.abilities.grab_entity.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesarrival:slowdown",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesarrival.abilities.slowdown.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesarrival:snap",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesarrival.abilities.snap.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesarrival:ice_punch",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesarrival.abilities.ice_punch.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray"
+         },
+		 { "ability": "heroesarrival:repulsor",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"heroesarrival.abilities.repulsor.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "color": [255, 105, 0]
+         },
+		 { "ability": "lucraftcore:fire_punch",
+           "cooldown": 0,
+           "show_in_bar": true,
+           "title": {"translate":"lucraftcore.abilities.fire_punch.name"},
+           "icon": { "type": "internal" },
+           "bar_color": "light_gray",
+           "duration": 90
+}
+	    	]
+	      }
